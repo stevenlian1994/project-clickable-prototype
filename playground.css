@@ -1,0 +1,82 @@
+*{
+    padding:0;
+    margin:0;
+    /* width:100%; */
+}
+.wrapper{
+    /* width:100%; */
+}
+.row{
+    /* width:100%; */
+}
+.jumbotron .container{
+    text-align:center;
+    /* width:100%; */
+}
+.main-content .container{
+    margin-bottom:50px;
+    min-height:200px;
+}
+.introduction{
+    background-color:red;
+}
+/* .main-content{
+    background-color:grey;
+} */
+.about{
+    background-color:green;
+}
+.about .description{
+    max-width:50%;
+    vertical-align: top;
+    display:inline-block;
+}
+.about .portrait{
+    padding:2%;
+    /* max-width:50%; */
+    max-width:400px;
+    width:49%;
+    vertical-align: top;
+    display:inline-block;
+}
+.technologies{
+    background-color:yellow;
+}
+.projects{
+    background-color:pink;
+}
+.contact{
+    background-color:aquamarine;
+}
+@media only screen and (max-width:480px){
+    .sm-0{
+        display: none;
+    }
+    .sm-4{
+        width:100%;
+    }
+}
+@media only screen and (min-width:481px) and (max-width:1023px){
+    .med-0{
+        display: none;
+    }
+    .med-4{
+        width:100%;
+    }
+}
+@media only screen and (min-width:1023px){
+    .lg-1{
+        width:24%;
+    }
+    .lg-3{
+        width:75%;
+    }
+    .lg-4{
+        width:100%;
+    }
+}
+/* @media only screen and (min-width:1024){
+    .remove-1048{
+        display:none;
+    }
+} */
